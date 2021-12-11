@@ -196,8 +196,32 @@ const links = [
     },
     isActive:false,
     linkContent: "Twitter"
-  }
-];
+  },
+  {
+    isEnabled: true,
+    metaData: {
+      label: "HEADLINE INC",
+      href: "https://twitter.com/headline_crypto/",
+      element: "h6",
+      target: "_blank"
+    },
+    isActive:false,
+    linkContent: ""
+  },
+  {
+    isEnabled: true,
+    metaData: {
+      label: "HEADLINE INC",
+      href: "https://twitter.com/headline_crypto/",
+      element: "footer",
+      target: "_blank"
+    },
+    isActive:false,
+    linkContent: "HEADLINE is a Texas-based fintech startup and media company. We build software on the Algorand blockchain. Copyright © 2021 HEADLINE INC. Built with React.js and Carbon Design"
+  },
+  
+]
+;
 
 // const App = () => (
 //   <React.Fragment>
