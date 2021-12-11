@@ -1,0 +1,22 @@
+{
+  "name": "carbon-components-react",
+  "version": "1.0.0",
+  "description": "Template for the React version of the Carbon Design System.",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "carbon-addons-iot-react": "2.3.2",
+    "carbon-components": "10.6.1",
+    "carbon-icons": "7.0.7",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
