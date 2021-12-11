@@ -2,61 +2,200 @@ import React from "react";
 import { render } from "react-dom";
 import {
   Header,
-  HeaderContainer,
   SideNav,
   Tabs,
   Tab,
   PageTitleBar
 } from "carbon-addons-iot-react";
-import Avatar from "@carbon/icons-react/lib/user--avatar/20";
-import NotificationOn from "@carbon/icons-react/lib/notification/20";
-import AppSwitcher from "@carbon/icons-react/lib/app-switcher/24";
-import Chip from "@carbon/icons-react/lib/chip/24";
-import { Tbl } from "./tbl";
+import LogoTwitter from "@carbon/icons-react/lib/logo--twitter/24";
+import Email from "@carbon/icons-react/lib/email/24";
+import NavaidHelipad from "@carbon/icons-react/lib/navaid--helipad/24";
+import Settings from "@carbon/icons-react/lib/settings/24";
+import Forum from "@carbon/icons-react/lib/forum/24";
+import Rocket from "@carbon/icons-react/lib/rocket/24";
+import Rss from "@carbon/icons-react/lib/rss/24";
+import Scales from "@carbon/icons-react/lib/scales/24";
+import Send from "@carbon/icons-react/lib/send/24";
+import InfrastructureClassic from "@carbon/icons-react/lib/infrastructure--classic/24";
+import LogoGithub from "@carbon/icons-react/lib/logo--github/24";
+import Wallet from "@carbon/icons-react/lib/wallet/24";
+import Compare from "@carbon/icons-react/lib/compare/24";
 const conf = {
-  hasSideNav: true,
+  hasSideNav: false,
   skipto: "",
-  appName: "test",
+  appName: "Links",
+  prefix:"HEADLINE",
   tenant: "TenantId: Acme",
-  user: "JohnDoe@ibm.com",
+  user: "JohnDoe@HEADLINE.com",
   actionItems: [
     {
-      label: "alerts",
-      btnContent: <NotificationOn fill="white" description="Icon" />
+      label: "email",
+      btnContent:  <a href="mailto:contact@headline-inc.com" aria-label="email" class="Header__StyledGlobalAction-sc-14tpcyv-1 hzqpaE bx--header__action-1" type="button"><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="white" description="Icon" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><path d="M28,6H4A2,2,0,0,0,2,8V24a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V8A2,2,0,0,0,28,6ZM25.8,8,16,14.78,6.2,8ZM4,24V8.91l11.43,7.91a1,1,0,0,0,1.14,0L28,8.91V24Z"></path></svg></a>
     },
     {
       btnContent: (
-        <React.Fragment>
-          <Avatar fill="white" description="Icon" />
-        </React.Fragment>
+<a href="https://twitter.com/headline_crypto/" aria-label="twitter" class="Header__StyledGlobalAction-sc-14tpcyv-1 hzqpaE bx--header__action-1" type="button"><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="white" description="Icon" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><path d="M11.92,24.94A12.76,12.76,0,0,0,24.76,12.1c0-.2,0-.39,0-.59A9.4,9.4,0,0,0,27,9.18a9.31,9.31,0,0,1-2.59.71,4.56,4.56,0,0,0,2-2.5,8.89,8.89,0,0,1-2.86,1.1,4.52,4.52,0,0,0-7.7,4.11,12.79,12.79,0,0,1-9.3-4.71,4.51,4.51,0,0,0,1.4,6,4.47,4.47,0,0,1-2-.56v.05A4.53,4.53,0,0,0,9.5,17.83a4.53,4.53,0,0,1-2,.08A4.51,4.51,0,0,0,11.68,21,9.05,9.05,0,0,1,6.07,23,9.77,9.77,0,0,1,5,22.91a12.77,12.77,0,0,0,6.92,2"></path></svg></a>
       ),
-      label: "user"
-    }
+      label: "twitter"
+    },
+    {
+      
+      btnContent: (
+        <a href="https://github.com/headline-design" aria-label="email" target="_blank" class="Header__StyledGlobalAction-sc-14tpcyv-1 hzqpaE bx--header__action-1" type="button"><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><path fill-rule="evenodd" d="M16,2a14,14,0,0,0-4.43,27.28c.7.13,1-.3,1-.67s0-1.21,0-2.38c-3.89.84-4.71-1.88-4.71-1.88A3.71,3.71,0,0,0,6.24,22.3c-1.27-.86.1-.85.1-.85A2.94,2.94,0,0,1,8.48,22.9a3,3,0,0,0,4.08,1.16,2.93,2.93,0,0,1,.88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4,5.4,0,0,1,1.44-3.76,5,5,0,0,1,.14-3.7s1.17-.38,3.85,1.43a13.3,13.3,0,0,1,7,0c2.67-1.81,3.84-1.43,3.84-1.43a5,5,0,0,1,.14,3.7,5.4,5.4,0,0,1,1.44,3.76c0,5.38-3.27,6.56-6.39,6.91a3.33,3.33,0,0,1,.95,2.59c0,1.87,0,3.38,0,3.84s.25.81,1,.67A14,14,0,0,0,16,2Z"></path></svg></a>
+      ),
+      label: "github"
+    },
   ]
 };
 const links = [
   {
-    icon: AppSwitcher,
+    icon: NavaidHelipad,
     isEnabled: true,
     metaData: {
-      label: "Devices",
-      href: "https://google.com",
+      label: "HEADLINE INC",
+      href: "https://www.headline-inc.com",
       element: "a",
       target: "_blank"
     },
-    linkContent: "Boards"
+    linkContent: "HEADLINE INC"
   },
   {
+    icon: Settings,
     isEnabled: true,
-    icon: Chip,
     metaData: {
-      label: "Devices",
-      href: "https://google.com",
+      label: "HEADLINE Design",
+      href: "https://github.com/headline-design",
       element: "a",
       target: "_blank"
     },
-    isActive:true,
-    linkContent: "Devices"
+    linkContent: "HEADLINE Design"
+  },
+  {
+    icon: Forum,
+    isEnabled: true,
+    metaData: {
+      label: "FORUM",
+      href: "https://www.forum.ax",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "FORUM"
+  },
+  {
+    icon: Scales,
+    isEnabled: true,
+    metaData: {
+      label: "Libra Network",
+      href: "https://www.libra-network.com/bias-barometer/",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "Libra Network"
+  },
+  {
+    icon: Settings,
+    isEnabled: true,
+    metaData: {
+      label: "PIPELINE-UI",
+      href: "https://www.pipeline-ui.com/",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "PIPELINE-UI"
+  },
+    {
+    icon: Wallet,
+    isEnabled: true,
+    metaData: {
+      label: "AlgoPay",
+      href: "https://www.algopay.finance/",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "AlgoPay"
+    },
+    {
+      icon: Compare,
+      isEnabled: true,
+      metaData: {
+        label: "AlgoSwap",
+        href: "https://www.algopay.finance/algoswap/",
+        element: "a",
+        target: "_blank"
+      },
+      linkContent: "AlgoSwap"
+      },
+      {
+        isEnabled: true,
+        icon: InfrastructureClassic,
+        metaData: {
+          label: "Algo Cloud",
+          href: "https://algocloud.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Algo Cloud"
+      },
+      {
+        isEnabled: true,
+        icon: Rocket,
+        metaData: {
+          label: "Algo Astros",
+          href: "https://algoastros.com/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Algo Astros"
+      },
+      {
+        isEnabled: true,
+        icon: Rss,
+        metaData: {
+          label: "Reddit",
+          href: "https://www.reddit.com/r/HEADLINECrypto/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Reddit"
+      },
+      {
+        isEnabled: true,
+        icon: Send,
+        metaData: {
+          label: "Telegram",
+          href: "https://t.me/headliners",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Telegram"
+      },
+      {
+        isEnabled: true,
+        icon: LogoGithub,
+        metaData: {
+          label: "Github",
+          href: "https://github.com/headline-design/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Github"
+      },
+  {
+    isEnabled: true,
+    icon: LogoTwitter,
+    metaData: {
+      label: "Twitter",
+      href: "https://twitter.com/headline_crypto/",
+      element: "a",
+      target: "_blank"
+    },
+    isActive:false,
+    linkContent: "Twitter"
   }
 ];
 
@@ -84,7 +223,7 @@ const links = [
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isSideNavExpanded: false };
+    this.state = { isSideNavExpanded: true };
   }
   render() {
     return (
@@ -95,18 +234,13 @@ class App extends React.Component {
           onClickSideNavExpand={() => {
             this.setState({ isSideNavExpanded: !this.state.isSideNavExpanded });
           }}
-          headerPanel={{
-            content: React.forwardRef((props, ref) => (
-              <div>Some content </div>
-            )),
-          }}
         />
         <SideNav
           links={links}
           isSideNavExpanded={true}
         />
-        <div style={{ marginTop: "4rem", marginLeft: "4rem" }}>
-          {/* <div class="bx--grid">
+        <div style={{ marginTop: "4rem", marginLeft: "4rem", minWidth: "100%" }}>
+          { <div class="bx--grid">
             <div class="bx--row">
               <Tabs
                 ariaLabel="listbox"
@@ -181,9 +315,9 @@ class App extends React.Component {
                 </Tab>
               </Tabs>
             </div>
-          </div> */}
+          </div> }
           <PageTitleBar
-            breadcrumb={[<a href="#">test</a>, <a href="#">testb</a>]}
+            breadcrumb={[<a href="#">Links</a>, <a href="#">testb</a>]}
             className={null}
             collapsed={false}
             description={
