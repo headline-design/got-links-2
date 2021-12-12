@@ -15,6 +15,7 @@ footer.bx--side-nav__link.disabled {
     font-size: 12px;
     font-weight: 400;
     max-width: 400px;
+    padding-bottom: 2rem;
 }
 
 .bx--side-nav__item:not(.bx--side-nav__item--active) > .bx--side-nav__link:hover {
