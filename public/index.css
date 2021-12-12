@@ -2,6 +2,10 @@ nav.bx--side-nav__navigation.bx--side-nav.bx--side-nav--expanded.bx--side-nav--u
     min-width: 100%;
 }
 
+body {
+    background-color: #000000 !important;
+}
+
 .hzqpaE.hzqpaE.hzqpaE {
     padding: initial !important;
     border-width: 0px;
