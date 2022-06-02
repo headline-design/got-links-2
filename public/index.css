@@ -169,6 +169,7 @@ h-footer {
         justify-content: flex-start;
         -ms-flex-line-pack: start;
         align-content: flex-start;
+        height: 100vh;
         -webkit-box-align: start;
         -ms-flex-align: start;
         -ms-grid-row-align: flex-start;
@@ -176,34 +177,12 @@ h-footer {
     }
 
     .bx--side-nav:hover .bx--side-nav__items, .bx--side-nav--fixed .bx--side-nav__items, .bx--side-nav--expanded .bx--side-nav__items {
-        position: relative;
-        overflow: visible!important;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-        -ms-flex-line-pack: start;
-        align-content: flex-start;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        -ms-grid-row-align: flex-start;
-        align-items: flex-start;
+        height: calc(100vh - 180px);
+        overflow-y: scroll;
     }
     nav.bx--side-nav__navigation.bx--side-nav.bx--side-nav--expanded.bx--side-nav--ux {
-        width: 100%;
-        max-width: 600px!important;
-        min-width: 200px;
-        margin: 0 auto!important;
-        left: auto!important;
-        height: 100vh;
-        bottom: 0!important;
-        padding-top: 8rem;
-        padding-bottom: 140px;
+        height: calc(100vh - 180px);
+        padding-top: 5rem;
         overflow-y: scroll;
     }
 }
