@@ -182,7 +182,7 @@ h-footer {
     }
     nav.bx--side-nav__navigation.bx--side-nav.bx--side-nav--expanded.bx--side-nav--ux {
         height: calc(100vh - 180px);
-        padding-top: 5rem;
+        padding-top: 3rem;
         overflow-y: scroll;
     }
 }
