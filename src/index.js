@@ -20,6 +20,18 @@ import InfrastructureClassic from "@carbon/icons-react/lib/infrastructure--class
 import LogoGithub from "@carbon/icons-react/lib/logo--github/24";
 import Wallet from "@carbon/icons-react/lib/wallet/24";
 import Compare from "@carbon/icons-react/lib/compare/24";
+import Fire from "@carbon/icons-react/lib/fire/24";
+import ReportData from "@carbon/icons-react/lib/report--data/24";
+import IotPlatform from "@carbon/icons-react/lib/iot--platform/24";
+import Chat from "@carbon/icons-react/lib/chat/24";
+import ChartAverage from "@carbon/icons-react/lib/chart--average/24";
+import Finance from "@carbon/icons-react/lib/finance/24";
+import FirewallClassic from "@carbon/icons-react/lib/firewall--classic/24";
+import Tools from "@carbon/icons-react/lib/tools/24";
+import LogoLinkedin from "@carbon/icons-react/lib/logo--linkedin/24";
+
+FirewallClassic
+
 const conf = {
   hasSideNav: false,
   skipto: "",
@@ -151,6 +163,126 @@ const links = [
       },
       {
         isEnabled: true,
+        icon: Fire,
+        metaData: {
+          label: "Algo Burner",
+          href: "https://algoburner.daotools.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Algo Burner - DAO Tools"
+      },
+      {
+        isEnabled: true,
+        icon: ReportData,
+        metaData: {
+          label: "Algo Vote",
+          href: "https://daotools.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Algo Vote - DAO Tools"
+      },
+      {
+        isEnabled: true,
+        icon: Chat,
+        metaData: {
+          label: "Algo Chat",
+          href: "https://algochat.daotools.org/",
+          element: "a",
+          target: "_blank"
+        }, 
+        isActive:false,
+        linkContent: "Algo Chat - DAO Tools"
+      },
+      {
+        isEnabled: true,
+        icon: IotPlatform,
+        metaData: {
+          label: "ARC Minter",
+          href: "https://arcminter.daotools.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "ARC Minter - DAO Tools"
+      },
+      {
+        isEnabled: true,
+        icon: ChartAverage,
+        metaData: {
+          label: "AlgOptions",
+          href: "https://www.algoptions.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "AlgOptions"
+      },
+      {
+        isEnabled: true,
+        icon: Finance,
+        metaData: {
+          label: "HEADLINE Trust",
+          href: "/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "HEADLINE Trust"
+      },
+      {
+        isEnabled: true,
+        icon: FirewallClassic,
+        metaData: {
+          label: "Vaults Protocol",
+          href: "https://vaults.algocloud.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Vaults Protocol"
+      },
+      {
+        isEnabled: true,
+        icon: Tools,
+        metaData: {
+          label: "DAO Tools",
+          href: "https://daotools.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "DAO Tools"
+      },
+      {
+        isEnabled: true,
+        icon: LogoLinkedin,
+        metaData: {
+          label: "LogoLinkedin",
+          href: "https://www.linkedin.com/company/hdlne",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "LinkedIn"
+      },
+      {
+        isEnabled: true,
+        icon: Rocket,
+        metaData: {
+          label: "Crunchbase",
+          href: "https://www.crunchbase.com/organization/headline-inc",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Crunchbase"
+      },
+      {
+        isEnabled: true,
         icon: Rss,
         metaData: {
           label: "Reddit",
@@ -166,7 +298,7 @@ const links = [
         icon: Send,
         metaData: {
           label: "Telegram",
-          href: "https://t.me/headliners",
+          href: "https://t.me/headline_crypto",
           element: "a",
           target: "_blank"
         },
