@@ -103,7 +103,7 @@ const links = [
           target: "_blank"
         },
         isActive:false,
-        linkContent: "HEADLINE Trust"
+        linkContent: "HDX"
       },
 
   {
