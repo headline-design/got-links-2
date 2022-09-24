@@ -69,6 +69,42 @@ const links = [
     },
     linkContent: "HEADLINE INC"
   },
+          {
+        isEnabled: true,
+        icon: Rocket,
+        metaData: {
+          label: "NFT Factory",
+          href: "https://nftfactory.org/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "NFT Factory"
+      },
+        {
+        isEnabled: true,
+        icon: ChartAverage,
+        metaData: {
+          label: "Silo DeFi",
+          href: "https://www.silodefi.com/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "Silo DeFi"
+      },
+        {
+        isEnabled: true,
+        icon: Finance,
+        metaData: {
+          label: "HDX",
+          href: "https://hdx.fi/",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "HEADLINE Trust"
+      },
   {
     icon: Settings,
     isEnabled: true,
@@ -79,28 +115,6 @@ const links = [
       target: "_blank"
     },
     linkContent: "HEADLINE Design"
-  },
-  {
-    icon: Forum,
-    isEnabled: true,
-    metaData: {
-      label: "FORUM",
-      href: "https://www.forum.ax",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "FORUM"
-  },
-  {
-    icon: Scales,
-    isEnabled: true,
-    metaData: {
-      label: "Libra Network",
-      href: "https://www.libra-network.com/bias-barometer/",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "Libra Network"
   },
   {
     icon: Settings,
@@ -134,18 +148,6 @@ const links = [
         target: "_blank"
       },
       linkContent: "AlgoSwap"
-      },
-      {
-        isEnabled: true,
-        icon: InfrastructureClassic,
-        metaData: {
-          label: "Algo Cloud",
-          href: "https://algocloud.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "Algo Cloud"
       },
       {
         isEnabled: true,
@@ -209,30 +211,6 @@ const links = [
       },
       {
         isEnabled: true,
-        icon: ChartAverage,
-        metaData: {
-          label: "AlgOptions",
-          href: "https://www.algoptions.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "AlgOptions"
-      },
-      {
-        isEnabled: true,
-        icon: Finance,
-        metaData: {
-          label: "HEADLINE Trust",
-          href: "/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "HEADLINE Trust"
-      },
-      {
-        isEnabled: true,
         icon: FirewallClassic,
         metaData: {
           label: "Vaults Protocol",
@@ -243,6 +221,28 @@ const links = [
         isActive:false,
         linkContent: "Vaults Protocol"
       },
+  {
+    icon: Forum,
+    isEnabled: true,
+    metaData: {
+      label: "FORUM",
+      href: "https://www.forum.ax",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "FORUM"
+  },
+  {
+    icon: Scales,
+    isEnabled: true,
+    metaData: {
+      label: "Libra Network",
+      href: "https://www.libra-network.com/bias-barometer/",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "Libra Network"
+  },
       {
         isEnabled: true,
         icon: Tools,
@@ -267,6 +267,7 @@ const links = [
         isActive:false,
         linkContent: "LinkedIn"
       },
+  
       {
         isEnabled: true,
         icon: Rocket,
