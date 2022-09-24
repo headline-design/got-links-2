@@ -58,16 +58,16 @@ const conf = {
   ]
 };
 const links = [
-  {
+    {
     icon: NavaidHelipad,
     isEnabled: true,
     metaData: {
-      label: "HEADLINE INC",
-      href: "https://www.headline-inc.com",
+      label: "HEADLINE Design",
+      href: "https://github.com/headline-design",
       element: "a",
       target: "_blank"
     },
-    linkContent: "HEADLINE INC"
+    linkContent: "HEADLINE Design"
   },
           {
         isEnabled: true,
@@ -105,17 +105,7 @@ const links = [
         isActive:false,
         linkContent: "HEADLINE Trust"
       },
-  {
-    icon: Settings,
-    isEnabled: true,
-    metaData: {
-      label: "HEADLINE Design",
-      href: "https://github.com/headline-design",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "HEADLINE Design"
-  },
+
   {
     icon: Settings,
     isEnabled: true,
@@ -255,6 +245,17 @@ const links = [
         isActive:false,
         linkContent: "DAO Tools"
       },
+  {
+    icon: Settings,
+    isEnabled: true,
+    metaData: {
+      label: "HEADLINE INC",
+      href: "https://www.headline-inc.com",
+      element: "a",
+      target: "_blank"
+    },
+    linkContent: "HEADLINE INC"
+  },
       {
         isEnabled: true,
         icon: LogoLinkedin,
