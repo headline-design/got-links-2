@@ -93,6 +93,18 @@ const links = [
         isActive:false,
         linkContent: "Silo DeFi"
       },
+   {
+        isEnabled: true,
+        icon: ChartAverage,
+        metaData: {
+          label: "HDL DAO",
+          href: "https://hdldao.com",
+          element: "a",
+          target: "_blank"
+        },
+        isActive:false,
+        linkContent: "HDL DAO"
+      },
       {
         isEnabled: true,
         icon: LogoLinkedin,
