@@ -73,13 +73,13 @@ const links = [
         isEnabled: true,
         icon: Rocket,
         metaData: {
-          label: "NFT Factory",
-          href: "https://nftfactory.org/",
+          label: "Xstack",
+          href: "https://xstack.build",
           element: "a",
           target: "_blank"
         },
         isActive:false,
-        linkContent: "NFT Factory"
+        linkContent: "Xstack"
       },
         {
         isEnabled: true,
@@ -93,169 +93,6 @@ const links = [
         isActive:false,
         linkContent: "Silo DeFi"
       },
-        {
-        isEnabled: true,
-        icon: Finance,
-        metaData: {
-          label: "HDX",
-          href: "https://hdx.fi/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "HDX"
-      },
-
-  {
-    icon: Settings,
-    isEnabled: true,
-    metaData: {
-      label: "PIPELINE-UI",
-      href: "https://www.pipeline-ui.com/",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "PIPELINE-UI"
-  },
-    {
-    icon: Wallet,
-    isEnabled: true,
-    metaData: {
-      label: "AlgoPay",
-      href: "https://www.algopay.finance/",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "AlgoPay"
-    },
-    {
-      icon: Compare,
-      isEnabled: true,
-      metaData: {
-        label: "AlgoSwap",
-        href: "https://www.algopay.finance/algoswap/",
-        element: "a",
-        target: "_blank"
-      },
-      linkContent: "AlgoSwap"
-      },
-      {
-        isEnabled: true,
-        icon: Rocket,
-        metaData: {
-          label: "Algo Astros",
-          href: "https://algoastros.com/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "Algo Astros"
-      },
-      {
-        isEnabled: true,
-        icon: Fire,
-        metaData: {
-          label: "Algo Burner",
-          href: "https://algoburner.daotools.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "Algo Burner - DAO Tools"
-      },
-      {
-        isEnabled: true,
-        icon: ReportData,
-        metaData: {
-          label: "Algo Vote",
-          href: "https://daotools.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "Algo Vote - DAO Tools"
-      },
-      {
-        isEnabled: true,
-        icon: Chat,
-        metaData: {
-          label: "Algo Chat",
-          href: "https://algochat.daotools.org/",
-          element: "a",
-          target: "_blank"
-        }, 
-        isActive:false,
-        linkContent: "Algo Chat - DAO Tools"
-      },
-      {
-        isEnabled: true,
-        icon: IotPlatform,
-        metaData: {
-          label: "ARC Minter",
-          href: "https://arcminter.daotools.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "ARC Minter - DAO Tools"
-      },
-      {
-        isEnabled: true,
-        icon: FirewallClassic,
-        metaData: {
-          label: "Vaults Protocol",
-          href: "https://vaults.algocloud.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "Vaults Protocol"
-      },
-  {
-    icon: Forum,
-    isEnabled: true,
-    metaData: {
-      label: "FORUM",
-      href: "https://www.forum.ax",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "FORUM"
-  },
-  {
-    icon: Scales,
-    isEnabled: true,
-    metaData: {
-      label: "Libra Network",
-      href: "https://www.libra-network.com/bias-barometer/",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "Libra Network"
-  },
-      {
-        isEnabled: true,
-        icon: Tools,
-        metaData: {
-          label: "DAO Tools",
-          href: "https://daotools.org/",
-          element: "a",
-          target: "_blank"
-        },
-        isActive:false,
-        linkContent: "DAO Tools"
-      },
-  {
-    icon: Settings,
-    isEnabled: true,
-    metaData: {
-      label: "HEADLINE INC",
-      href: "https://www.headline-inc.com",
-      element: "a",
-      target: "_blank"
-    },
-    linkContent: "HEADLINE INC"
-  },
       {
         isEnabled: true,
         icon: LogoLinkedin,
@@ -297,13 +134,13 @@ const links = [
         isEnabled: true,
         icon: Send,
         metaData: {
-          label: "Telegram",
-          href: "https://t.me/headline_crypto",
+          label: "Discord",
+          href: "https://discord.gg/YZZPjxdn3X",
           element: "a",
           target: "_blank"
         },
         isActive:false,
-        linkContent: "Telegram"
+        linkContent: "Discord"
       },
       {
         isEnabled: true,
