@@ -240,7 +240,7 @@ class App extends React.Component {
   </svg>
         
         <span class="bx--side-nav__link-text footer-text">HEADLINE is a fintech startup and media company. 
-        <br />We build next-gen software and web apps. Copyright © 2023 HEADLINE INC. Built with React.js and Carbon Design</span></footer>
+        <br />We build next-gen web apps. Copyright © 2023 HEADLINE INC. Built with React.js and Carbon Design</span></footer>
       </React.Fragment>
     );
   }
