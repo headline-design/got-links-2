@@ -13,7 +13,10 @@
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+"d3-ease": "^3.0.1",
+"d3-selection": "^3.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "serve": "serve -s build",
