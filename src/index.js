@@ -73,37 +73,37 @@ const links = [
         isEnabled: true,
         icon: Rocket,
         metaData: {
-          label: "Xstack",
-          href: "https://xstack.build",
+          label: "Atlas",
+          href: "https://atlas.box",
           element: "a",
           target: "_blank"
         },
         isActive:false,
-        linkContent: "Xstack"
+        linkContent: "Atlas"
       },
         {
         isEnabled: true,
         icon: ChartAverage,
         metaData: {
-          label: "Silo DeFi",
-          href: "https://www.silodefi.com/",
+          label: "SIWA",
+          href: "https://www.siwa.org",
           element: "a",
           target: "_blank"
         },
         isActive:false,
-        linkContent: "Silo DeFi"
+        linkContent: "SIWA"
       },
    {
         isEnabled: true,
         icon: IotPlatform,
         metaData: {
-          label: "HDL DAO",
-          href: "https://hdldao.com",
+          label: "HDL World",
+          href: "https://hdl.world",
           element: "a",
           target: "_blank"
         },
         isActive:false,
-        linkContent: "HDL DAO"
+        linkContent: "HDL World"
       },
       {
         isEnabled: true,
