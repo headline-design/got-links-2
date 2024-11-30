@@ -7,4 +7,5 @@
 /coverage
 
 # production
+/build
 /.cache
