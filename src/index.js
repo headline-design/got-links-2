@@ -3,9 +3,6 @@ import { render } from "react-dom";
 import {
   Header,
   SideNav,
-  Tabs,
-  Tab,
-  PageTitleBar,
 } from "carbon-addons-iot-react";
 import LogoTwitter from "@carbon/icons-react/lib/logo--twitter/24";
 import Email from "@carbon/icons-react/lib/email/24";
