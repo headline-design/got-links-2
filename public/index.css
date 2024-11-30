@@ -42,11 +42,6 @@ body {
     background-color: #24242494!important
 }
 
-.hzqpaE.hzqpaE.hzqpaE {
-    padding: initial!important;
-    border-width: 0
-}
-
 .bx--side-nav__item:not(.bx--side-nav__item--active)>.bx--side-nav__link:hover {
     color: #fff!important
 }
@@ -88,25 +83,48 @@ footer.bx--side-nav__link.disabled:hover {
     color: #f3f3f300!important
 }
 
-a.Header__StyledGlobalAction-sc-14tpcyv-1.hzqpaE.bx--header__action-1 {
+.bx--header__action {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 3rem;
+    padding: initial !important;
+    border-width: 0;
+    position: relative;
+    width: auto;
+}
+
+.bx--header__action > a {
     height: 3rem;
-    padding: 0 .9375rem!important;
+    padding: 0 .9375rem !important;
     border-color: #ffffff00;
     outline: 0;
     border-width: 2px;
-    border-style: solid
+    border-style: solid;
+    align-items: center;
+    display: flex
 }
 
-a.Header__StyledGlobalAction-sc-14tpcyv-1.hzqpaE.bx--header__action-1:hover {
+.iot--header__short-name {
+display: none;
+}
+
+.bx--header__action > a:hover {
     background-color: #353535!important
 }
 
-a.Header__StyledGlobalAction-sc-14tpcyv-1.hzqpaE.bx--header__action-1:active {
+.bx--header__action > a:active {
     background-color: #3d3d3d!important;
     color: #f3f3f3!important
 }
 
-a.Header__StyledGlobalAction-sc-14tpcyv-1.hzqpaE.bx--header__action-1:focus {
+.bx--tooltip__trigger:hover svg, .bx--tooltip__trigger:focus svg {
+    fill: #fff!important
+}
+
+.bx--header__action > a:focus {
     border-color: #fff!important;
     outline: 0;
     border-width: 2px;
@@ -177,11 +195,11 @@ h-footer {
     }
 
     .bx--side-nav:hover .bx--side-nav__items, .bx--side-nav--fixed .bx--side-nav__items, .bx--side-nav--expanded .bx--side-nav__items {
-        height: calc(100vh - 180px);
+        height: calc(100vh - 140px);
         overflow-y: scroll;
     }
     nav.bx--side-nav__navigation.bx--side-nav.bx--side-nav--expanded.bx--side-nav--ux {
-        height: calc(100vh - 180px);
+        height: calc(100vh - 140px);
         padding-top: 3rem;
         overflow-y: scroll;
     }
