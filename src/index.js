@@ -117,22 +117,11 @@ const conf = {
 };
 const links = [
   {
-    icon: NavaidHelipad,
-    isEnabled: true,
-    metaData: {
-      label: "HEADLINE Design",
-      href: "https://github.com/headline-design",
-      element: "a",
-      target: "_blank",
-    },
-    linkContent: "HEADLINE Design",
-  },
-  {
     isEnabled: true,
     icon: Rocket,
     metaData: {
-      label: "Atlas",
-      href: "https://atlas.box",
+      label: "Index",
+      href: "https://algoindex.io",
       element: "a",
       target: "_blank",
     },
@@ -165,79 +154,6 @@ const links = [
   },
   {
     isEnabled: true,
-    icon: IotPlatform,
-    metaData: {
-      label: "HDL World",
-      href: "https://hdl.world",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "HDL World",
-  },
-  {
-    isEnabled: true,
-    icon: LogoLinkedin,
-    metaData: {
-      label: "LogoLinkedin",
-      href: "https://www.linkedin.com/company/hdlne",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "LinkedIn",
-  },
-
-  {
-    isEnabled: true,
-    icon: Rocket,
-    metaData: {
-      label: "Crunchbase",
-      href: "https://www.crunchbase.com/organization/headline-inc",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "Crunchbase",
-  },
-  {
-    isEnabled: true,
-    icon: Rss,
-    metaData: {
-      label: "Reddit",
-      href: "https://www.reddit.com/r/HEADLINECrypto/",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "Reddit",
-  },
-  {
-    isEnabled: true,
-    icon: Send,
-    metaData: {
-      label: "Discord",
-      href: "https://discord.gg/YZZPjxdn3X",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "Discord",
-  },
-  {
-    isEnabled: true,
-    icon: LogoGithub,
-    metaData: {
-      label: "Github",
-      href: "https://github.com/headline-design/",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "Github",
-  },
-  {
-    isEnabled: true,
     icon: LogoTwitter,
     metaData: {
       label: "Twitter",
@@ -247,6 +163,17 @@ const links = [
     },
     isActive: false,
     linkContent: "Twitter",
+  },
+    {
+    icon: NavaidHelipad,
+    isEnabled: true,
+    metaData: {
+      label: "HEADLINE Design",
+      href: "https://github.com/headline-design",
+      element: "a",
+      target: "_blank",
+    },
+    linkContent: "HEADLINE Design",
   },
 ];
 class App extends React.Component {
