@@ -126,7 +126,7 @@ const links = [
       target: "_blank",
     },
     isActive: false,
-    linkContent: "Atlas",
+    linkContent: "Index",
   },
   {
     isEnabled: true,
@@ -157,7 +157,7 @@ const links = [
     icon: LogoTwitter,
     metaData: {
       label: "Twitter",
-      href: "https://twitter.com/headline_crypto",
+      href: "https://twitter.com/algoindex_",
       element: "a",
       target: "_blank",
     },
