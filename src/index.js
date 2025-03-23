@@ -128,6 +128,30 @@ const links = [
     isActive: false,
     linkContent: "Index",
   },
+    {
+    isEnabled: true,
+    icon: IotPlatform,
+    metaData: {
+      label: "VMkit",
+      href: "https://vmkit.xyz",
+      element: "a",
+      target: "_blank",
+    },
+    isActive: false,
+    linkContent: "Index",
+  },
+     {
+    isEnabled: true,
+    icon: Scales,
+    metaData: {
+      label: "xGov Explorer",
+      href: "https://xgov.app",
+      element: "a",
+      target: "_blank",
+    },
+    isActive: false,
+    linkContent: "Index",
+  },
   {
     isEnabled: true,
     icon: ChartAverage,
