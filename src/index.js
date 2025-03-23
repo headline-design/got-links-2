@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import {
   Header,
-  SideNav,
+  SideNav,Fin
 } from "carbon-addons-iot-react";
 import LogoTwitter from "@carbon/icons-react/lib/logo--twitter/24";
 import Email from "@carbon/icons-react/lib/email/24";
@@ -138,7 +138,7 @@ const links = [
       target: "_blank",
     },
     isActive: false,
-    linkContent: "Index",
+    linkContent: "Vmkit",
   },
      {
     isEnabled: true,
@@ -150,7 +150,7 @@ const links = [
       target: "_blank",
     },
     isActive: false,
-    linkContent: "Index",
+    linkContent: "xGov Explorer",
   },
   {
     isEnabled: true,
