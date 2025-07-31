@@ -168,13 +168,13 @@ const links = [
     isEnabled: true,
     icon: Forum,
     metaData: {
-      label: "SIWA Docs",
-      href: "https://docs.siwa.org",
+      label: "Vibr",
+      href: "https://vibr.net",
       element: "a",
       target: "_blank",
     },
     isActive: false,
-    linkContent: "SIWA Docs",
+    linkContent: "Vibr",
   },
   {
     isEnabled: true,
