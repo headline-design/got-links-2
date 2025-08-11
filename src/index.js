@@ -128,18 +128,6 @@ const links = [
     isActive: false,
     linkContent: "Index",
   },
-    {
-    isEnabled: true,
-    icon: IotPlatform,
-    metaData: {
-      label: "VMkit",
-      href: "https://vmkit.xyz",
-      element: "a",
-      target: "_blank",
-    },
-    isActive: false,
-    linkContent: "Vmkit",
-  },
      {
     isEnabled: true,
     icon: Scales,
@@ -175,6 +163,18 @@ const links = [
     },
     isActive: false,
     linkContent: "Vibr",
+  },
+   {
+    isEnabled: true,
+    icon: IotPlatform,
+    metaData: {
+      label: "v0 Toolkit",
+      href: "https://v0toolkit.com",
+      element: "a",
+      target: "_blank",
+    },
+    isActive: false,
+    linkContent: "v0 Toolkit",
   },
   {
     isEnabled: true,
