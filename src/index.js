@@ -168,13 +168,13 @@ const links = [
     isEnabled: true,
     icon: IotPlatform,
     metaData: {
-      label: "v0 Toolkit",
-      href: "https://v0toolkit.com",
+      label: "OneShot",
+      href: "https://oneshot.build",
       element: "a",
       target: "_blank",
     },
     isActive: false,
-    linkContent: "v0 Toolkit",
+    linkContent: "OneShot",
   },
   {
     isEnabled: true,
